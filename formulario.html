@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <div class="contenido">
+        <h1 class="logo">Contacto</h1>
+        
+        <div class="caja-contacto">
+
+           <div class="form-contacto">
+            
+            <form action="">
+                <p>
+                    <label>Nombre</label>
+                    <input class="ingreso" type="text" name="nombre" placeholder="Escribe tu nombre" maxlength="30">
+                </p>
+                <p>
+                    <label>Apellidos</label>
+                    <input class="ingreso" type="text" name="apellido" placeholder="Escribe tu apellido" maxlength="30">
+                </p>
+                <p>
+                    <label>Email</label>
+                    <input class="ingreso" type="email" name="email" placeholder="correo@empresa.com" required>
+                </p>
+                
+                <p>
+                    <label>Asunto: </label>
+                    <select class="ingreso" size="3">
+                        <option>Pedir presupuesto</option>
+                        <option>solicitar cita previa</option>
+                        <option>Otros</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label>Como nos ha conocido?</label><br><br>
+
+                    <input type="checkbox"  name="unamigo" >Un amigo
+                    <input type="checkbox"  name="Googleando" >Googleando
+                    <input type="checkbox"  name="Buzoneo" >Buzoneo
+                    <input type="checkbox"  name="Otros" >Otros
+                    
+                </p>
+                <p>
+                    <label>Escribe tu mensaje</label>
+                    <textarea name="mensaje" rows="5" maxlength="300"></textarea>
+                </p>
+                <p>
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </p>
+                <p>
+                    <input type="checkbox" name="acepto" class="checkbox" checked required>He leido y <a href="#">acepto el aviso legal y la politica de privacidad</a>
+                </p>
+            </form>
+           </div>
+        
+        
+          
+        </div>
+    
+    </div>
+
+    
+
+</body>
+</html>
